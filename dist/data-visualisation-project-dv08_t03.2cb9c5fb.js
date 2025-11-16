@@ -1,0 +1,2 @@
+d3.csv("data/finaldata.csv",T=>({START_DATE:T.START_DATE.trim(),DETECTION_METHOD:T.DETECTION_METHOD.trim(),JURISDICTION:T.JURISDICTION.trim(),FINES:+T.FINES,METRIC:T.METRIC.trim()})).then(T=>{drawLineChart(transformToLineChartData(T.filter(T=>"speed_fines"===T.METRIC)))}).catch(T=>console.error("❌ loading line-chart data failed:",T));
+//# sourceMappingURL=data-visualisation-project-dv08_t03.2cb9c5fb.js.map

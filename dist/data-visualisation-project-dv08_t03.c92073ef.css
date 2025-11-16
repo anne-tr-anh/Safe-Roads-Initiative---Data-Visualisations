@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #fff;
+  background-color: #818fb4;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  display: flex;
+  overflow-x: hidden;
+}
+
+.navbar {
+  background-color: #435585;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+}
+
+.navbar img {
+  cursor: pointer;
+  width: 290px;
+  height: auto;
+}
+
+.nav-links {
+  flex-grow: 1;
+  justify-content: right;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  color: #fff;
+  padding: 8px 15px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background .3s;
+}
+
+.nav-links a:hover {
+  background-color: #818fb4;
+  border-radius: 5px;
+}
+
+.nav-links a.active {
+  background-color: #577bb1;
+  border-radius: 5px;
+}
+
+.content {
+  text-align: center;
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  text-align: center;
+  color: #fff;
+  background-color: #435585;
+  width: 100%;
+  margin-top: auto;
+  padding: 10px;
+}
+/*# sourceMappingURL=data-visualisation-project-dv08_t03.c92073ef.css.map */

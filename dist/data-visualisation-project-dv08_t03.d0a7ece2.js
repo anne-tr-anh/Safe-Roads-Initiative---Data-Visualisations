@@ -1,0 +1,2 @@
+function navigateTo(e){document.querySelectorAll("main section").forEach(e=>{e.classList.add("hidden")}),document.getElementById(`${e}-section`).classList.remove("hidden"),document.querySelectorAll("nav ul li a").forEach(e=>{e.classList.remove("active")}),document.getElementById(e).classList.add("active"),document.title=e.charAt(0).toUpperCase()+e.slice(1)+" - Banh Mi Ram Ram"}
+//# sourceMappingURL=data-visualisation-project-dv08_t03.d0a7ece2.js.map
